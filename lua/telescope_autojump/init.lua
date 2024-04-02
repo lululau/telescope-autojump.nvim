@@ -1,6 +1,9 @@
 local actions = require "telescope.actions"
 local action_state = require "telescope.actions.state"
 local pickers = require "telescope.pickers"
+local finders = require "telescope.finders"
+local sorters = require "telescope.sorters"
+local conf = require "telescope.config".values
 
 local colors = function(opts)
   opts = opts or {}
